@@ -1,0 +1,32 @@
+html, body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-family: "Nunito", sans-serif;
+}
+
+#gif {
+    height: 300px;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    width: 150px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #ff7878;
+    border: none;
+    filter: drop-shadow(2px 2px 0px #df4646);
+}
+
+button + button {
+    margin-left: 1em;
+}
